@@ -1,0 +1,45 @@
+创建目录：
+mkdir <name>
+cd 《name》
+pwd
+
+初始化
+git init
+
+添加文件到版本库
+git add "文件名"
+
+
+提交到库
+git commit -m “说明”
+
+显示状态
+git status
+
+显示修改内容
+git diff
+
+版本回退
+git reset --hard commi_id
+
+提交历史
+git log
+
+未来版本
+git reflog
+
+创建ssh key
+ssh-keygen -t rsa -C "youremail"
+
+关联库
+git remote add origin git@github.com:username/xxxxxx.git
+
+
+推送本地库
+git push -u origin master 首次
+git push origin master 二次
+
+从远程导入
+git clone git@github.com:mcself/py_study.git
+
+-------------学习进度 2019年11月25日  到远程仓库结束-----
